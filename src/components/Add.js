@@ -6,7 +6,6 @@ const Add = (props) => {
   const {value, itemBox, setBox, onChangeText} = props;
   const addItem = () => {
     setBox(itemBox.concat(value));
-
     onChangeText('');
   };
   return <Button onPress={() => addItem()} title="ADD" />;

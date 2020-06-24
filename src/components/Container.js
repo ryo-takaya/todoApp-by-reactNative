@@ -4,6 +4,7 @@ import Textinput from './TextInput';
 import Add from './Add';
 
 import {StyleSheet, ScrollView, View, Text} from 'react-native';
+import Alldelete from './Alldelete';
 
 const Container = () => {
   const [value, onChangeText] = useState('');
@@ -18,6 +19,8 @@ const Container = () => {
           itemBox={itemBox}
           setBox={setBox}
         />
+        <Alldelete  setBox={setBox} />
+
         <Addfield itemBox={itemBox} setBox={setBox} />
       </View>
     </>

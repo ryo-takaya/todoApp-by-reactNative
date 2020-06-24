@@ -7,9 +7,8 @@ const deleteButton = (props) => {
     <Button
       title="DELETE"
       onPress={() => {
-        console.log(itemBox);
         itemBox.splice(Number(target), 1);
-        console.log(itemBox);
+
         setBox([...itemBox]);
       }}
     />

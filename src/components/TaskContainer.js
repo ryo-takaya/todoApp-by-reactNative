@@ -14,7 +14,7 @@ const TaskContainer = (props) => {
           alignItems: 'center',
           borderWidth: 2,
           borderColor: '#20232a',
-          marginBottom: 10,
+          margin: 15,
         }}>
         <Item text={text} />
         <DeleteButton target={num} setBox={setBox} itemBox={itemBox} />

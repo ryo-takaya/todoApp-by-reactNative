@@ -15,7 +15,7 @@ const Addfield = (props) => {
     />
   ));
 
-  return <View>{Box}</View>;
+  return <View style={{marginTop: 45}}>{Box}</View>;
 };
 
 export default Addfield;
